@@ -17,7 +17,7 @@
 		F416DF16256DFDD8006360F4 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F416DF15256DFDD8006360F4 /* MonthView.swift */; };
 		F416DF19256DFDF1006360F4 /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F416DF18256DFDF1006360F4 /* WeekdaysView.swift */; };
 		F416DF1C256DFE11006360F4 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F416DF1B256DFE11006360F4 /* CalendarView.swift */; };
-		F43E2E4B25678426002CB8BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43E2E4A25678426002CB8BE /* LaunchScreen.storyboard */; };
+		F416DF2B257756A7006360F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F416DF29257756A7006360F4 /* LaunchScreen.storyboard */; };
 		F4CE80F525664BEB00B4659B /* SwiftUIViewHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE80F425664BEB00B4659B /* SwiftUIViewHostingController.swift */; };
 		F4CE81012567242B00B4659B /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE81002567242B00B4659B /* KeyboardResponder.swift */; };
 /* End PBXBuildFile section */
@@ -35,7 +35,7 @@
 		F416DF15256DFDD8006360F4 /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
 		F416DF18256DFDF1006360F4 /* WeekdaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
 		F416DF1B256DFE11006360F4 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		F43E2E4A25678426002CB8BE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../../.Trash/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F416DF2A257756A7006360F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../HeartRateMonitor-final-2/HeartRateMonitor/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		F4CE80F425664BEB00B4659B /* SwiftUIViewHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewHostingController.swift; sourceTree = "<group>"; };
 		F4CE81002567242B00B4659B /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,7 +83,7 @@
 				F4CE80F425664BEB00B4659B /* SwiftUIViewHostingController.swift */,
 				5C0360721FB90013007BC593 /* Main.storyboard */,
 				5C0360751FB90013007BC593 /* Assets.xcassets */,
-				F43E2E4A25678426002CB8BE /* LaunchScreen.storyboard */,
+				F416DF29257756A7006360F4 /* LaunchScreen.storyboard */,
 				5C03607A1FB90013007BC593 /* Info.plist */,
 			);
 			path = HeartRateMonitor;
@@ -165,7 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F43E2E4B25678426002CB8BE /* LaunchScreen.storyboard in Resources */,
+				F416DF2B257756A7006360F4 /* LaunchScreen.storyboard in Resources */,
 				5C0360761FB90013007BC593 /* Assets.xcassets in Resources */,
 				5C0360741FB90013007BC593 /* Main.storyboard in Resources */,
 			);
@@ -200,6 +200,14 @@
 				5C0360731FB90013007BC593 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F416DF29257756A7006360F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F416DF2A257756A7006360F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
